@@ -7,9 +7,8 @@ public class Main {
 
         System.out.printf("Hello and welcome!");
 
-        for (String i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 5; i++) {
 
-            new JavaClass().print(i);
 
             System.out.println("i = " + i);
         }
